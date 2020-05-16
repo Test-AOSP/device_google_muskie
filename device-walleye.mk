@@ -49,3 +49,7 @@ endif
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_KERNEL):kernel
+
+PRODUCT_COPY_FILES += \
+    device/google/muskie/prebuilt/bootanimation.zip:system/media/bootanimation.zip
+
